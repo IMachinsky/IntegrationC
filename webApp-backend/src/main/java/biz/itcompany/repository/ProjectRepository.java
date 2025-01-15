@@ -1,0 +1,7 @@
+package biz.itcompany.repository;
+
+import biz.itcompany.model.Project;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProjectRepository extends JpaRepository<Project, Integer> {
+}
